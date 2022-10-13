@@ -34,3 +34,6 @@
   background-color: #ffd300;
   color: black;
 }
+.hero a:hover {
+  opacity: 0.7;
+}

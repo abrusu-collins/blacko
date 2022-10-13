@@ -15,10 +15,14 @@
   & a {
     text-decoration: none;
     color: inherit;
-    // border: 2px solid $yellow;
     padding: 12px 40px;
     border-radius: 7px;
     background-color: $yellow;
     color: black;
+    // transition: 800ms ease-in-out;
+
+    &:hover {
+      opacity: 0.7;
+    }
   }
 }
