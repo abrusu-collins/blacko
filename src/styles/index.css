@@ -15,4 +15,6 @@
 .hero {
   height: 100vh;
   background-color: #090b23;
+  color: white;
+  font-family: SFRegular;
 }
