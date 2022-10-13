@@ -1,43 +1,45 @@
 .hero {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  width: 50%;
-  margin: auto;
-  height: 90vh;
-  background-color: $primary_background;
-  color: white;
-  font-family: SFRegular;
-  font-size: 14px;
-  & p {
-    margin: 20px 0;
-  }
-  & a {
-    text-decoration: none;
-    color: inherit;
-    padding: 12px 40px;
-    border-radius: 7px;
-    background-color: $yellow;
-    color: black;
-    transition: 800ms ease-in-out;
-
-    &:hover {
-      opacity: 0.6;
+    background-color: $primary_background;
+ & .hero-inner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    margin: auto;
+    height: 90vh;
+    color: white;
+    font-family: SFRegular;
+    font-size: 14px;
+    & p {
+      margin: 20px 0;
     }
-  }
-  & .music-box {
-    background-image: url("../img/5.jpg");
-    height: 500px;
-    width: 500px;
-    background-size: contain;
-    border-radius: 50%;
-    background-repeat: no-repeat;
-    animation-name: spin;
-    animation-duration: 5000ms;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear;
-  }
+    & a {
+      text-decoration: none;
+      color: inherit;
+      padding: 12px 40px;
+      border-radius: 7px;
+      background-color: $yellow;
+      color: black;
+      transition: 800ms ease-in-out;
+  
+      &:hover {
+        opacity: 0.6;
+      }
+    }
+    & .music-box {
+      background-image: url("../img/5.jpg");
+      height: 500px;
+      width: 500px;
+      background-size: contain;
+      border-radius: 50%;
+      background-repeat: no-repeat;
+      animation-name: spin;
+      animation-duration: 5000ms;
+      animation-iteration-count: infinite;
+      animation-timing-function: linear;
+    }
+ }
 }
 
 @keyframes spin {

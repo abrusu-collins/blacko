@@ -1,7 +1,8 @@
 function Hero() {
   return (
     <div className="hero">
-      <div className="music-box"></div>
+<div className="hero-inner">
+<div className="music-box"></div>
       <p className="about">
         Black Sherif is the voice of the streets in Ghana right now. His music
         speaks to the souls and hearts of his fans. He started his music career
@@ -11,6 +12,7 @@ function Hero() {
         he touches is a blessing. He is indeed a musical genius.
       </p>
       <a href=" ">Explore his music</a>
+</div>
     </div>
   );
 }

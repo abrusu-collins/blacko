@@ -4,10 +4,6 @@
   box-sizing: border-box;
 }
 
-body {
-  background-color: #0e1032;
-}
-
 @font-face {
   font-family: SFBold;
   src: url("../fonts/SFPRODISPLAYBOLD.OTF");
@@ -17,6 +13,9 @@ body {
   src: url("../fonts/SFPRODISPLAYREGULAR.OTF");
 }
 .hero {
+  background-color: #0e1032;
+}
+.hero .hero-inner {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -24,15 +23,14 @@ body {
   width: 50%;
   margin: auto;
   height: 90vh;
-  background-color: #0e1032;
   color: white;
   font-family: SFRegular;
   font-size: 14px;
 }
-.hero p {
+.hero .hero-inner p {
   margin: 20px 0;
 }
-.hero a {
+.hero .hero-inner a {
   text-decoration: none;
   color: inherit;
   padding: 12px 40px;
@@ -41,10 +39,10 @@ body {
   color: black;
   transition: 800ms ease-in-out;
 }
-.hero a:hover {
+.hero .hero-inner a:hover {
   opacity: 0.6;
 }
-.hero .music-box {
+.hero .hero-inner .music-box {
   background-image: url("../img/5.jpg");
   height: 500px;
   width: 500px;
