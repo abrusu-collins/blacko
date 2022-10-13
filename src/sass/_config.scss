@@ -5,6 +5,10 @@ $yellow: #ffd300;
   margin: 0;
   box-sizing: border-box;
 }
+
+body{
+    background-color: $primary_background;
+}
 @font-face {
   font-family: SFBold;
   src: url("../fonts/SFPRODISPLAYBOLD.OTF");

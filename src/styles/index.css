@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+body {
+  background-color: #0e1032;
+}
+
 @font-face {
   font-family: SFBold;
   src: url("../fonts/SFPRODISPLAYBOLD.OTF");
@@ -14,17 +18,22 @@
 }
 .hero {
   display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 70%;
+  margin: auto;
   height: 100vh;
   background-color: #0e1032;
   color: white;
   font-family: SFRegular;
 }
-.hero .left-flex .name {
+.hero .name {
   font-family: SFBold;
   display: flex;
   align-items: center;
 }
-.hero .left-flex .name img {
+.hero .name img {
   width: 2%;
 }
 .hero a {
@@ -38,7 +47,7 @@
 .hero a:hover {
   opacity: 0.7;
 }
-.hero .right-flex {
+.hero .music-box {
   background-image: url("../img/5.jpg");
   height: 500px;
   width: 500px;

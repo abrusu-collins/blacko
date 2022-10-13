@@ -2,10 +2,10 @@ import musicicon from "../img/music.png";
 function Hero() {
   return (
     <div className="hero">
-      <div className="left-flex">
         <p className="name">
           Black Sherif <img src={musicicon} alt="musicicon" />
         </p>
+        <div className="music-box"></div>
         <p className="about">
           Black Sherif is the voice of the streets in Ghana right now. His music
           speaks to the souls and hearts of his fans. He started his music
@@ -15,11 +15,6 @@ function Hero() {
           everything he touches is a blessing. He is indeed a musical genius.
         </p>
         <a href=" ">Explore his music</a>
-      </div>
-      <div className="right-flex">
-
-        
-      </div>
     </div>
   );
 }
