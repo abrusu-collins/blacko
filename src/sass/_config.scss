@@ -4,3 +4,11 @@ $primary_background: #090b23;
     margin: 0;
     box-sizing: border-box;
 }
+@font-face {
+    font-family: SFBold;
+    src: url("../fonts/SFPRODISPLAYBOLD.OTF");
+}
+@font-face {
+    font-family: SFRegular;
+    src: url("../fonts/SFPRODISPLAYREGULAR.OTF");
+}

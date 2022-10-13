@@ -4,6 +4,14 @@
   box-sizing: border-box;
 }
 
+@font-face {
+  font-family: SFBold;
+  src: url("../fonts/SFPRODISPLAYBOLD.OTF");
+}
+@font-face {
+  font-family: SFRegular;
+  src: url("../fonts/SFPRODISPLAYREGULAR.OTF");
+}
 .hero {
   height: 100vh;
   background-color: #090b23;
