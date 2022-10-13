@@ -1,0 +1,31 @@
+.navbar {
+  background-color: $primary_background;
+  height: 10vh;
+  color: white;
+  font-family: SFRegular;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 14px;
+  & p {
+    font-family: SFBold;
+  }
+  & ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    & li {
+      margin-right: 40px;
+      & a {
+        text-decoration: none;
+        color: inherit;
+        padding: 10px;
+        border-radius: 4px;
+        &:hover {
+          background-color: $yellow;
+          color: black;
+        }
+      }
+    }
+  }
+}

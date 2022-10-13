@@ -12,6 +12,38 @@
   font-family: SFRegular;
   src: url("../fonts/SFPRODISPLAYREGULAR.OTF");
 }
+.navbar {
+  background-color: #0e1032;
+  height: 10vh;
+  color: white;
+  font-family: SFRegular;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 14px;
+}
+.navbar p {
+  font-family: SFBold;
+}
+.navbar ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+.navbar ul li {
+  margin-right: 40px;
+}
+.navbar ul li a {
+  text-decoration: none;
+  color: inherit;
+  padding: 10px;
+  border-radius: 4px;
+}
+.navbar ul li a:hover {
+  background-color: #ffd300;
+  color: black;
+}
+
 .hero {
   background-color: #0e1032;
 }
