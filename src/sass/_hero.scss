@@ -1,24 +1,15 @@
 .hero {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width:70%;
-    margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 70%;
+  margin: auto;
   height: 100vh;
   background-color: $primary_background;
   color: white;
   font-family: SFRegular;
-   & .name {
-        font-family: SFBold;
-        display: flex;
-        align-items: center;
-    
-        & img {
-          width: 2%;
-        }
-      }
-  
+
   & a {
     text-decoration: none;
     color: inherit;
@@ -26,18 +17,18 @@
     border-radius: 7px;
     background-color: $yellow;
     color: black;
-    // transition: 800ms ease-in-out;
+    transition: 800ms ease-in-out;
 
     &:hover {
-      opacity: 0.7;
+      opacity: 0.6;
     }
   }
-  & .music-box{
-    background-image:url("../img/5.jpg");
-   height:500px;
-   width:500px;
-   background-size: contain;
-   border-radius: 50%;
-   background-repeat: no-repeat;
+  & .music-box {
+    background-image: url("../img/5.jpg");
+    height: 500px;
+    width: 500px;
+    background-size: contain;
+    border-radius: 50%;
+    background-repeat: no-repeat;
   }
 }

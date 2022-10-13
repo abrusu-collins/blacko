@@ -28,14 +28,6 @@ body {
   color: white;
   font-family: SFRegular;
 }
-.hero .name {
-  font-family: SFBold;
-  display: flex;
-  align-items: center;
-}
-.hero .name img {
-  width: 2%;
-}
 .hero a {
   text-decoration: none;
   color: inherit;
@@ -43,9 +35,10 @@ body {
   border-radius: 7px;
   background-color: #ffd300;
   color: black;
+  transition: 800ms ease-in-out;
 }
 .hero a:hover {
-  opacity: 0.7;
+  opacity: 0.6;
 }
 .hero .music-box {
   background-image: url("../img/5.jpg");
