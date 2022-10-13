@@ -1,7 +1,24 @@
-.hero{
-    height:100vh;
-    background-color: $primary_background;
-    color:white;
-    font-family: SFRegular;
+.hero {
+  height: 100vh;
+  background-color: $primary_background;
+  color: white;
+  font-family: SFRegular;
+  & .name {
+    font-family: SFBold;
+    display: flex;
+    align-items: center;
 
+    & img {
+      width: 2%;
+    }
+  }
+  & a {
+    text-decoration: none;
+    color: inherit;
+    // border: 2px solid $yellow;
+    padding: 12px 40px;
+    border-radius: 7px;
+    background-color: $yellow;
+    color: black;
+  }
 }

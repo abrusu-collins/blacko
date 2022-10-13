@@ -14,7 +14,23 @@
 }
 .hero {
   height: 100vh;
-  background-color: #090b23;
+  background-color: #0e1032;
   color: white;
   font-family: SFRegular;
+}
+.hero .name {
+  font-family: SFBold;
+  display: flex;
+  align-items: center;
+}
+.hero .name img {
+  width: 2%;
+}
+.hero a {
+  text-decoration: none;
+  color: inherit;
+  padding: 12px 40px;
+  border-radius: 7px;
+  background-color: #ffd300;
+  color: black;
 }
