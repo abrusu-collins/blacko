@@ -13,17 +13,18 @@
   src: url("../fonts/SFPRODISPLAYREGULAR.OTF");
 }
 .hero {
+  display: flex;
   height: 100vh;
   background-color: #0e1032;
   color: white;
   font-family: SFRegular;
 }
-.hero .name {
+.hero .left-flex .name {
   font-family: SFBold;
   display: flex;
   align-items: center;
 }
-.hero .name img {
+.hero .left-flex .name img {
   width: 2%;
 }
 .hero a {
@@ -36,4 +37,12 @@
 }
 .hero a:hover {
   opacity: 0.7;
+}
+.hero .right-flex {
+  background-image: url("../img/5.jpg");
+  height: 500px;
+  width: 500px;
+  background-size: contain;
+  border-radius: 50%;
+  background-repeat: no-repeat;
 }

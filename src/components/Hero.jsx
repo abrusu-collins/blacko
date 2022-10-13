@@ -16,7 +16,10 @@ function Hero() {
         </p>
         <a href=" ">Explore his music</a>
       </div>
-      <div className="right-flex"></div>
+      <div className="right-flex">
+
+        
+      </div>
     </div>
   );
 }

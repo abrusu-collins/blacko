@@ -1,16 +1,19 @@
 .hero {
+    display: flex;
   height: 100vh;
   background-color: $primary_background;
   color: white;
   font-family: SFRegular;
-  & .name {
-    font-family: SFBold;
-    display: flex;
-    align-items: center;
-
-    & img {
-      width: 2%;
-    }
+  & .left-flex{
+    & .name {
+        font-family: SFBold;
+        display: flex;
+        align-items: center;
+    
+        & img {
+          width: 2%;
+        }
+      }
   }
   & a {
     text-decoration: none;
@@ -24,5 +27,13 @@
     &:hover {
       opacity: 0.7;
     }
+  }
+  & .right-flex{
+    background-image:url("../img/5.jpg");
+   height:500px;
+   width:500px;
+   background-size: contain;
+   border-radius: 50%;
+   background-repeat: no-repeat;
   }
 }
