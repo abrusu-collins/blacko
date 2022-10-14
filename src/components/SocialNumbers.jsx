@@ -6,9 +6,9 @@ function SocialNumbers() {
                     <p className="title">YOUTUBE</p>
                     <p className="count">640K+ Subscribers</p>
                 </div>
-                <div className="am">
-                    <p className="title">APPPLE MUSIC</p>
-                    <p className="count">640K+ Subscribers</p>
+                <div className="sp">
+                    <p className="title">SPOTIFY</p>
+                    <p className="count">1.3M+ monthly listeners</p>
                 </div> <div className="ad">
                     <p className="title">AUDIOMACK</p>
                     <p className="count">1M+ followers</p>
