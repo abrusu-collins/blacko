@@ -128,14 +128,20 @@
   font-family: SFRegular;
   background-color: white;
   font-size: 14px;
+  padding: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .socialnumbers .socialnumbersinner {
   background-color: #0e1032;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 50%;
+  width: 70%;
   color: white;
+  padding: 50px;
+  border-radius: 10px;
 }
 .socialnumbers .socialnumbersinner div {
   text-align: center;
