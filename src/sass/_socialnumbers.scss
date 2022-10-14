@@ -1,0 +1,20 @@
+.socialnumbers {
+  font-family: SFRegular;
+  background-color: white;
+  font-size: 14px;
+  & .socialnumbersinner {
+    background-color: $primary_background;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width:50%;
+    color:white;
+    & div {
+      text-align: center;
+      & .title {
+        font-size: 20px;
+      }
+    }
+   
+  }
+}

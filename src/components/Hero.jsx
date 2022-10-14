@@ -5,7 +5,7 @@ function Hero({ file }) {
     src: file,
     format: "mp3",
     autoplay: false,
-    onend: () => console.log("sound has ended!"),
+    onend: () => {},
   });
   return (
     <div className="hero">
@@ -15,9 +15,13 @@ function Hero({ file }) {
             <button
               onClick={(e) => {
                 togglePlayPause();
-                e.currentTarget.parentElement.parentElement.classList.toggle(
-                  "animate"
-                );
+                playing
+                  ? e.currentTarget.parentElement.parentElement.classList.remove(
+                      "animate"
+                    )
+                  : e.currentTarget.parentElement.parentElement.classList.add(
+                      "animate"
+                    );
               }}
             >
               {playing ? "Pause" : "Play"}

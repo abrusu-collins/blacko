@@ -124,3 +124,22 @@
     transform: rotate(360deg);
   }
 }
+.socialnumbers {
+  font-family: SFRegular;
+  background-color: white;
+  font-size: 14px;
+}
+.socialnumbers .socialnumbersinner {
+  background-color: #0e1032;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 50%;
+  color: white;
+}
+.socialnumbers .socialnumbersinner div {
+  text-align: center;
+}
+.socialnumbers .socialnumbersinner div .title {
+  font-size: 20px;
+}
