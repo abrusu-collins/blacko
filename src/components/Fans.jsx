@@ -1,7 +1,7 @@
 function Fans() {
   return (
     <div className="fans">
-      <p className="title">THE FANS LOVE BLACKO</p>
+      <p className="title">COMMENTS FROM BLACKO FANS</p>
       <div className="comments">
         <div className="comment1">
           <p>Black Sherif is the definition of great talent </p>
