@@ -1,19 +1,27 @@
 .tvinw {
   font-family: SFBold;
+  font-size: 30px;
 
   & .title {
-    font-size: 30px;
     text-align: center;
     margin-bottom: 50px;
   }
   & .album-name {
-    font-size: 30px;
     display: flex;
     align-items: center;
     justify-content: space-around;
     & #background-video {
       height: 57vh;
       border-radius: 10px;
+    }
+  }
+  & .listen {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+   
+    & img {
+      width: 10%;
     }
   }
 }

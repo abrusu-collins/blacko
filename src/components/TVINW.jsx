@@ -1,4 +1,5 @@
 import vid from "../img/vid.mp4";
+import rightarrow from "../img/right.png";
 function TVINW() {
   return (
     <div className="tvinw">
@@ -12,7 +13,8 @@ function TVINW() {
       </div>
       <div className="listen">
         <p>Listen to the album here</p>
-        <iframe
+        <img src={rightarrow} alt="rightarrow" />
+       <iframe
           title="mn"
           allow="autoplay *; encrypted-media *; fullscreen *; clipboard-write"
           frameBorder="0"

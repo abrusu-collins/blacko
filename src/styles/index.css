@@ -155,14 +155,13 @@
 
 .tvinw {
   font-family: SFBold;
+  font-size: 30px;
 }
 .tvinw .title {
-  font-size: 30px;
   text-align: center;
   margin-bottom: 50px;
 }
 .tvinw .album-name {
-  font-size: 30px;
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -170,4 +169,12 @@
 .tvinw .album-name #background-video {
   height: 57vh;
   border-radius: 10px;
+}
+.tvinw .listen {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.tvinw .listen img {
+  width: 10%;
 }
