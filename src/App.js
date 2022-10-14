@@ -7,6 +7,7 @@ import Hero from "./components/Hero";
 import SocialNumbers from "./components/SocialNumbers";
 import TVINW from "./components/TVINW";
 import Stylish from "./components/Stylish";
+import Fans from "./components/Fans";
 function App() {
   return (
     <>
@@ -17,6 +18,7 @@ function App() {
         <SocialNumbers/>
         <TVINW/>
         <Stylish/>
+        <Fans/>
     </>
   );
 }
