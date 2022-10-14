@@ -12,6 +12,17 @@
   font-family: SFRegular;
   src: url("../fonts/SFPRODISPLAYREGULAR.OTF");
 }
+.animate {
+  -webkit-animation-name: spin;
+          animation-name: spin;
+  -webkit-animation-duration: 5000ms;
+          animation-duration: 5000ms;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+}
+
 .navbar {
   background-color: #0e1032;
   height: 10vh;
@@ -85,14 +96,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  -webkit-animation-name: spin;
-          animation-name: spin;
-  -webkit-animation-duration: 5000ms;
-          animation-duration: 5000ms;
-  -webkit-animation-iteration-count: infinite;
-          animation-iteration-count: infinite;
-  -webkit-animation-timing-function: linear;
-          animation-timing-function: linear;
 }
 .hero .hero-inner button {
   background-color: #0e1032;
@@ -102,4 +105,22 @@
   border-radius: 50%;
   border: none;
   font-family: SFBold;
+}
+
+@-webkit-keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }

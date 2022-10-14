@@ -14,3 +14,10 @@ $yellow: #ffd300;
   font-family: SFRegular;
   src: url("../fonts/SFPRODISPLAYREGULAR.OTF");
 }
+
+.animate{
+    animation-name: spin;
+    animation-duration: 5000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
