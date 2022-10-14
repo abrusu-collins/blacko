@@ -1,11 +1,12 @@
 import "./styles/index.css";
-import { AudioPlayerProvider } from "react-use-audio-player"
+import { AudioPlayerProvider } from "react-use-audio-player";
 
 
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import SocialNumbers from "./components/SocialNumbers";
 import TVINW from "./components/TVINW";
+import Stylish from "./components/Stylish";
 function App() {
   return (
     <>
@@ -15,6 +16,7 @@ function App() {
         </AudioPlayerProvider>
         <SocialNumbers/>
         <TVINW/>
+        <Stylish/>
     </>
   );
 }

@@ -189,3 +189,11 @@
 .tvinw .listen img {
   width: 10%;
 }
+
+.stylish {
+  background-color: #0e1032;
+  color: white;
+  font-family: SFBold;
+  font-size: 30px;
+  margin-top: 50px;
+}
