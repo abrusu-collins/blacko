@@ -10,7 +10,7 @@ function Fans() {
           <p>
             This guy is all style. Give him REGGAE, he will deliver. Give him
             HIPLIFE he will deliver. Give him HIFLIFE, he will deliver and even
-            give him BLAKO and he will still deliver. His full soul is of
+            give him BLACKO and he will still deliver. His full soul is of
             talents.
           </p>
         </div>
