@@ -1,7 +1,7 @@
 .hero {
-    background-color: $primary_background;
-    background-image: url("../img/bg-black-shape.png");
- & .hero-inner{
+  background-color: $primary_background;
+  background-image: url("../img/bg-black-shape.png");
+  & .hero-inner {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -23,7 +23,7 @@
       background-color: $yellow;
       color: black;
       transition: 800ms ease-in-out;
-  
+
       &:hover {
         opacity: 0.6;
       }
@@ -35,12 +35,25 @@
       background-size: contain;
       border-radius: 50%;
       background-repeat: no-repeat;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
       animation-name: spin;
       animation-duration: 5000ms;
       animation-iteration-count: infinite;
       animation-timing-function: linear;
     }
- }
+    & button {
+      background-color: $primary_background;
+      color: white;
+      height: 60px;
+      width: 60px;
+      border-radius: 50%;
+      border: none;
+      font-family: SFBold;
+    }
+  }
 }
 
 // @keyframes spin {
