@@ -136,6 +136,7 @@
 }
 .socialnumbers .socialnumbersinner {
   background-color: #0e1032;
+  background-size: contain;
   display: flex;
   align-items: center;
   justify-content: space-between;

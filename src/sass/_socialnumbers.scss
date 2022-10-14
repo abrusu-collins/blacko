@@ -8,6 +8,8 @@
   justify-content: center;
   & .socialnumbersinner {
     background-color: $primary_background;
+    // background: $primary_background url("../img/yellow-dots.png") ;
+    background-size: contain;
     display: flex;
     align-items: center;
     justify-content: space-between;
