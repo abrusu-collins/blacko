@@ -202,6 +202,7 @@
   font-family: SFBold;
   font-size: 30px;
   margin-top: 50px;
+  padding-bottom: 50px;
 }
 .stylish .style {
   padding: 50px 0;
@@ -214,4 +215,45 @@
 }
 .stylish .images img {
   width: 100%;
+}
+
+.fans {
+  font-family: SFRegular;
+}
+.fans .title {
+  font-size: 30px;
+  font-family: SFBold;
+  padding: 50px;
+}
+.fans .comments {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1rem;
+}
+.fans .comments .comment1 {
+  background-color: #baffcd;
+}
+.fans .comments .comment2 {
+  background-color: #f5deb3;
+}
+.fans .comments .comment3 {
+  background-color: #ffc0cb;
+}
+.fans .comments .comment4 {
+  background-color: #badeff;
+}
+.fans .comments .comment5 {
+  background-color: #ffc0cb;
+}
+.fans .comments .comment6 {
+  background-color: #baffcd;
+}
+.fans .comments .comment7 {
+  background-color: #f5deb3;
+}
+.fans .comments .comment8 {
+  background-color: #baffcd;
+}
+.fans .comments .comment9 {
+  background-color: #badeff;
 }

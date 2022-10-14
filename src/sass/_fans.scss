@@ -1,3 +1,40 @@
-.fans{
-    
+.fans {
+  font-family: SFRegular;
+  & .title {
+    font-size: 30px;
+    font-family: SFBold;
+    padding: 50px;
+  }
+  & .comments {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1rem;
+    & .comment1 {
+      background-color: $green;
+    }
+    & .comment2 {
+      background-color: $brown;
+    }
+    & .comment3 {
+      background-color: $pink;
+    }
+    & .comment4 {
+      background-color: $blue;
+    }
+    & .comment5 {
+      background-color: $pink;
+    }
+    & .comment6 {
+      background-color: $green;
+    }
+    & .comment7 {
+      background-color: $brown;
+    }
+    & .comment8 {
+      background-color: $green;
+    }
+    & .comment9 {
+      background-color: $blue;
+    }
+  }
 }

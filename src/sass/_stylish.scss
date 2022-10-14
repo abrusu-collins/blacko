@@ -1,25 +1,26 @@
-.stylish{
-    width:100%;
-    background-color: $primary_background;
-    display: flex;
-    flex-direction: column;
-align-items: center;
-justify-content: center;
-margin:auto;
-    color:white;
-    font-family: SFBold;
-    font-size: 30px;
-    margin-top: 50px;
-    & .style{
-        padding:50px 0;
-        text-align: center;
+.stylish {
+  width: 100%;
+  background-color: $primary_background;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  color: white;
+  font-family: SFBold;
+  font-size: 30px;
+  margin-top: 50px;
+  padding-bottom: 50px;
+  & .style {
+    padding: 50px 0;
+    text-align: center;
+  }
+  & .images {
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    & img {
+      width: 100%;
     }
-    & .images{
-        width:80%;
-        display: grid;
-        grid-template-columns: repeat(3,1fr);
-        & img{
-            width:100%;
-        }
-    }
+  }
 }
