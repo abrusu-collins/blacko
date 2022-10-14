@@ -1,9 +1,13 @@
 import useSound from 'use-sound';
+import soja from "../audio/Black-Sherif-Soja.mp3";
 function Hero() {
+    const [playSound] = useSound(soja)
   return (
     <div className="hero">
       <div className="hero-inner">
-        <div className="music-box"></div>
+        <div className="music-box"> <button onClick={() => playSound()}>
+       Play Sound
+    </button></div>
         <p className="about">
           Black Sherif is the voice of the streets in Ghana right now. His music
           speaks to the souls and hearts of his fans. He started his music
