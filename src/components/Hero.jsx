@@ -1,19 +1,29 @@
+import { useAudioPlayer } from "react-use-audio-player";
 
-import { useAudioPlayer } from "react-use-audio-player"
-
-function Hero({file}) {
-    const { togglePlayPause, playing } = useAudioPlayer({
-        src: file,
-        format: "mp3",
-        autoplay: false,
-        onend: () => console.log("sound has ended!")
-    })
+function Hero({ file }) {
+  const { togglePlayPause, playing } = useAudioPlayer({
+    src: file,
+    format: "mp3",
+    autoplay: false,
+    onend: () => console.log("sound has ended!"),
+  });
   return (
     <div className="hero">
       <div className="hero-inner">
-        <div className="music-box"><div>
-            <button onClick={togglePlayPause}>{playing ? "Pause" : "Play"}</button>
-        </div></div>
+        <div className="music-box">
+          <div>
+            <button
+              onClick={(e) => {
+                togglePlayPause();
+                e.currentTarget.parentElement.parentElement.classList.toggle(
+                  "animate"
+                );
+              }}
+            >
+              {playing ? "Pause" : "Play"}
+            </button>
+          </div>
+        </div>
         <p className="about">
           Black Sherif is the voice of the streets in Ghana right now. His music
           speaks to the souls and hearts of his fans. He started his music
