@@ -1,5 +1,6 @@
 .hero {
     background-color: $primary_background;
+    background-image: url("../img/bg-black-shape.png");
  & .hero-inner{
     display: flex;
     flex-direction: column;

@@ -46,6 +46,7 @@
 
 .hero {
   background-color: #0e1032;
+  background-image: url("../img/bg-black-shape.png");
 }
 .hero .hero-inner {
   display: flex;
