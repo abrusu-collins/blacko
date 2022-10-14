@@ -1,0 +1,14 @@
+.tvinw {
+  font-family: SFBold;
+
+  & .title {
+    font-size: 30px;
+    text-align: center;
+  }
+  & .album-name {
+    & #background-video {
+      height: 60vh;
+      width: 100%;
+    }
+  }
+}

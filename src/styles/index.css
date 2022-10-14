@@ -152,3 +152,15 @@
   margin-bottom: 10px;
   font-family: SFBold;
 }
+
+.tvinw {
+  font-family: SFBold;
+}
+.tvinw .title {
+  font-size: 30px;
+  text-align: center;
+}
+.tvinw .album-name #background-video {
+  height: 60vh;
+  width: 100%;
+}
