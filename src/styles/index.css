@@ -170,10 +170,19 @@
   height: 57vh;
   border-radius: 10px;
 }
+.tvinw .album-name div {
+  text-align: center;
+}
+.tvinw .album-name div img {
+  width: 30%;
+  margin-top: 30px;
+}
 .tvinw .listen {
   display: flex;
   align-items: center;
   justify-content: space-around;
+  margin: 50px auto 0 auto;
+  width: 90%;
 }
 .tvinw .listen img {
   width: 10%;
