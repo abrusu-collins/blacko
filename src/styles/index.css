@@ -82,6 +82,7 @@
   background-color: #ffd300;
   color: black;
   transition: 800ms ease-in-out;
+  margin-top: -15px;
 }
 .hero .hero-inner a:hover {
   opacity: 0.6;
@@ -148,4 +149,5 @@
 }
 .socialnumbers .socialnumbersinner div .title {
   font-size: 20px;
+  margin-bottom: 10px;
 }
