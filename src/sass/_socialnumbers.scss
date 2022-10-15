@@ -8,14 +8,14 @@
   justify-content: center;
   & .socialnumbersinner {
     background-color: $primary_background;
-    background: $primary_background url("../img/yellow-dots.png") ;
+    background: $primary_background url("../img/yellow-dots.png");
     background-size: contain;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width:90%;
-    color:white;
-    padding:50px;
+    width: 90%;
+    color: white;
+    padding: 50px;
     border-radius: 10px;
     & div {
       text-align: center;
@@ -23,9 +23,7 @@
         font-size: 20px;
         margin-bottom: 10px;
         font-family: SFBold;
-
       }
     }
-   
   }
 }

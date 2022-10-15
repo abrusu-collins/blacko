@@ -18,3 +18,24 @@
     }
   }
 }
+
+@media screen and (max-width: 1281px) {
+    .tvinw {
+      & .album-name {
+        & #background-video {
+          height: 40vh;
+        }
+      }
+      & .listen {
+        width: 80%;
+  
+  & img{
+      margin: 50px;
+  }
+  
+        & iframe {
+          width: 60%;
+        }
+      }
+    }
+  }

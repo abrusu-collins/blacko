@@ -33,3 +33,19 @@
     }
   }
 }
+
+
+@media screen and (max-width: 1361px) {
+    .hero {
+      & .hero-inner {
+        width: 60%;
+        & .music-box {
+          height: 450px;
+          width: 450px;
+        }
+        & a {
+          margin: 0;
+        }
+      }
+    }
+  }

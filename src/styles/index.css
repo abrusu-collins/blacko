@@ -330,11 +330,42 @@
   }
 }
 @media screen and (max-width: 1361px) {
+  .hero .hero-inner {
+    width: 60%;
+  }
+  .hero .hero-inner .music-box {
+    height: 450px;
+    width: 450px;
+  }
+  .hero .hero-inner a {
+    margin: 0;
+  }
+}
+@media screen and (max-width: 1281px) {
+  .socialnumbers .socialnumbersinner {
+    width: 99%;
+  }
+}
+@media screen and (max-width: 1361px) {
   .tvinw .album-name #background-video {
     height: 47vh;
   }
   .tvinw .listen {
     width: 70%;
+  }
+  .tvinw .listen img {
+    margin: 50px;
+  }
+  .tvinw .listen iframe {
+    width: 60%;
+  }
+}
+@media screen and (max-width: 1281px) {
+  .tvinw .album-name #background-video {
+    height: 40vh;
+  }
+  .tvinw .listen {
+    width: 80%;
   }
   .tvinw .listen img {
     margin: 50px;
