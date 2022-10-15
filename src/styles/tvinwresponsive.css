@@ -1,6 +1,12 @@
 @media screen and (max-width: 1361px) {
+  .tvinw .album-name #background-video {
+    height: 47vh;
+  }
   .tvinw .listen {
     width: 70%;
+  }
+  .tvinw .listen img {
+    margin: 50px;
   }
   .tvinw .listen iframe {
     width: 60%;
