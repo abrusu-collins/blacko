@@ -1,16 +1,24 @@
+import { useEffect } from "react";
 import { useAudioPlayer } from "react-use-audio-player";
 
 function Hero({ file }) {
+  let r;
+  useEffect(() => {
+    r = document.getElementById("player");
+  });
+
   const { togglePlayPause, playing } = useAudioPlayer({
     src: file,
     format: "mp3",
     autoplay: false,
-    onend: () => {},
+    onend: () => {
+      r.classList.remove("animate");
+    },
   });
   return (
     <div className="hero">
       <div className="hero-inner">
-        <div className="music-box">
+        <div className="music-box" id="player">
           <div>
             <button
               onClick={(e) => {
