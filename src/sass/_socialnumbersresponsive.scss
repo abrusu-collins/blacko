@@ -5,3 +5,12 @@
         }
     }
 }
+
+@media screen and (max-width: 1001px) {
+    .socialnumbers{
+        padding:50px 30px;
+        & .socialnumbersinner{
+            width:99%;
+        }
+    }
+}

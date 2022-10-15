@@ -339,6 +339,14 @@
     width: 99%;
   }
 }
+@media screen and (max-width: 1001px) {
+  .socialnumbers {
+    padding: 50px 30px;
+  }
+  .socialnumbers .socialnumbersinner {
+    width: 99%;
+  }
+}
 @media screen and (max-width: 1361px) {
   .tvinw .album-name #background-video {
     height: 47vh;
@@ -368,12 +376,6 @@
   }
 }
 @media screen and (max-width: 1001px) {
-  .tvinw .listen {
-    width: 80%;
-  }
-  .tvinw .listen img {
-    margin: 50px;
-  }
   .tvinw .listen iframe {
     width: 100%;
   }
