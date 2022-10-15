@@ -191,6 +191,9 @@
   margin: 50px auto 0 auto;
   width: 90%;
 }
+.tvinw .listen iframe {
+  width: 100%;
+}
 .tvinw .listen img {
   width: 10%;
 }
@@ -312,5 +315,13 @@
   }
   .hero .hero-inner a {
     margin-top: -15px;
+  }
+}
+@media screen and (max-width: 1361px) {
+  .tvinw .listen {
+    width: 70%;
+  }
+  .tvinw .listen iframe {
+    width: 50%;
   }
 }

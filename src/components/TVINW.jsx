@@ -22,7 +22,6 @@ function TVINW() {
           frameBorder="0"
           height="450"
           style={{
-            width: "100%",
             maxWidth: "660px",
             overflow: "hidden",
             background: "transparent",

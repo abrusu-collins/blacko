@@ -1,3 +1,10 @@
 @media screen and (max-width:1361px) {
-    
+    .tvinw{
+        & .listen{
+            width:70%;
+            & iframe{
+             width:60%;
+            }
+        }
+    }
 }

@@ -1,0 +1,8 @@
+@media screen and (max-width: 1361px) {
+  .tvinw .listen {
+    width: 70%;
+  }
+  .tvinw .listen iframe {
+    width: 60%;
+  }
+}
