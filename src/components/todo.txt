@@ -1,3 +1,2 @@
-footer
 fix spin bug
 responsiveness
