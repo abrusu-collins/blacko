@@ -24,6 +24,11 @@
           animation-timing-function: linear;
 }
 
+@media screen and (max-width: 1001px) {
+  .removed {
+    display: none;
+  }
+}
 .navbar {
   background-color: #0e1032;
   height: 10vh;
@@ -315,18 +320,6 @@
   }
   .hero .hero-inner a {
     margin-top: -15px;
-  }
-}
-@media screen and (max-width: 1361px) {
-  .hero .hero-inner {
-    width: 60%;
-  }
-  .hero .hero-inner .music-box {
-    height: 450px;
-    width: 450px;
-  }
-  .hero .hero-inner a {
-    margin: 0;
   }
 }
 @media screen and (max-width: 1361px) {

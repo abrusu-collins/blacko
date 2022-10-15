@@ -26,3 +26,10 @@ $brown:#f5deb3;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
 }
+
+@media screen and (max-width:1001px) {
+  
+  .removed{
+    display: none;
+  }
+}

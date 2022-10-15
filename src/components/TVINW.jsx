@@ -9,9 +9,9 @@ function TVINW() {
       <div className="album-name">
         <div>
           <p>THE VILLAIN I NEVER WAS</p>
-          <img src={downarrow} alt="" />
+          <img className="removed" src={downarrow} alt="" />
         </div>
-        <video id="background-video" autoPlay loop muted>
+        <video className="removed" id="background-video" autoPlay loop muted>
           <source src={vid} type="video/mp4" />
         </video>
       </div>
@@ -29,9 +29,9 @@ function TVINW() {
           sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation"
           src="https://embed.music.apple.com/us/album/the-villain-i-never-was/1645609301"
         ></iframe>
-        <img src={leftarrow} alt="leftarrow" />
+        <img className="removed" src={leftarrow} alt="leftarrow" />
 
-        <p>Listen to the album here</p>
+        <p className="removed">Listen to the album here</p>
       </div>
     </div>
   );
