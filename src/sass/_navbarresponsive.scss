@@ -5,6 +5,9 @@
         }
         ul{
             display: none;
+            & li{
+                margin-bottom: 20px;
+            }
         }
     }
 }
