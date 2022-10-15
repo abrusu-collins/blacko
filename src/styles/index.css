@@ -272,6 +272,26 @@
 }
 
 .footer {
-  height: 100vh;
+  font-size: 14px;
+  height: 10vh;
   background-color: #0e1032;
+  background-image: url("../img/green.png");
+  background-size: contain;
+  color: white;
+  font-family: SFRegular;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.footer .links a {
+  text-decoration: none;
+  color: black;
+  background-color: #ffd300;
+  padding: 12px 40px;
+  border-radius: 10px;
+  margin-right: 10px;
+  transition: 800ms ease-in-out;
+}
+.footer .links a:hover {
+  opacity: 0.6;
 }

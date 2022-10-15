@@ -1,4 +1,26 @@
-.footer{
-    height:100vh;
-    background-color: $primary_background;
+.footer {
+  font-size: 14px;
+  height: 10vh;
+  background-color: $primary_background;
+  background-image: url("../img/green.png");
+  background-size: contain;
+  color: white;
+  font-family: SFRegular;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  & .links {
+    & a {
+      text-decoration: none;
+      color: black;
+      background-color: $yellow;
+      padding: 12px 40px;
+      border-radius: 10px;
+      margin-right: 10px;
+      transition: 800ms ease-in-out;
+      &:hover {
+        opacity: 0.6;
+      }
+    }
+  }
 }
