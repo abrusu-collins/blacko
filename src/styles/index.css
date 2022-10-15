@@ -29,6 +29,10 @@
     display: none;
   }
 }
+.navremoval {
+  display: block !important;
+}
+
 .navbar {
   background-color: #0e1032;
   height: 10vh;
@@ -309,6 +313,14 @@
   opacity: 0.6;
 }
 
+@media screen and (max-width: 691px) {
+  .navbar .bar {
+    display: block;
+  }
+  .navbar ul {
+    display: none;
+  }
+}
 @media screen and (max-width: 1485px) {
   .hero .hero-inner a {
     margin-top: 20px;
