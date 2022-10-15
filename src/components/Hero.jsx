@@ -16,7 +16,7 @@ function Hero({ file }) {
     },
   });
   return (
-    <div className="hero">
+    <div className="hero" >
       <div className="hero-inner">
         <div className="music-box" id="player">
           <div>

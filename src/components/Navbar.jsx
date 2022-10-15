@@ -1,19 +1,19 @@
 function Navbar() {
   return (
-    <div className="navbar">
+    <div className="navbar" id="home">
       <p>BLACKO.</p>
       <ul>
         <li>
-          <a href=" ">Home</a>
+          <a href="#home">Home</a>
         </li>
         <li>
-          <a href=" ">TVINW</a>
+          <a href="#tvinw">TVINW</a>
         </li>
         <li>
-          <a href=" ">Top Songs</a>
+          <a href="#fans">Fans</a>
         </li>
         <li>
-          <a href=" ">Gallery</a>
+          <a href="#pics">Gallery</a>
         </li>
       </ul>
     </div>

@@ -1,6 +1,6 @@
 function Fans() {
   return (
-    <div className="fans">
+    <div className="fans" id="fans">
       <p className="title">COMMENTS FROM BLACKO FANS</p>
       <div className="comments">
         <div className="comment1">

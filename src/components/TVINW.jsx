@@ -4,7 +4,7 @@ import downarrow from "../img/down.png";
 
 function TVINW() {
   return (
-    <div className="tvinw">
+    <div className="tvinw" id="tvinw">
       <p className="title"> DEBUT ALBUM</p>
       <div className="album-name">
         <div>

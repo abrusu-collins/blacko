@@ -13,7 +13,7 @@ import _26 from "../img/26.jpg";
 
 function Stylish() {
   return (
-    <div className="stylish">
+    <div className="stylish" id="pics">
       <p className="style">BLACKO GOT STYLE</p>
       <div className="images">
         <img src={_24} alt="" />
