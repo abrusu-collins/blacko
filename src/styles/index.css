@@ -354,6 +354,15 @@
     margin: 0;
   }
 }
+@media screen and (max-width: 551px) {
+  .hero .hero-inner {
+    width: 90%;
+  }
+  .hero .hero-inner .music-box {
+    height: 400px;
+    width: 400px;
+  }
+}
 @media screen and (max-width: 1281px) {
   .socialnumbers .socialnumbersinner {
     width: 99%;
@@ -433,7 +442,7 @@
     grid-template-columns: 1fr;
   }
   .fans .comments div {
-    padding: 70px;
+    padding: 50px;
   }
 }
 @media screen and (max-width: 821px) {

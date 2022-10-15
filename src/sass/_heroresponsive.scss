@@ -34,14 +34,14 @@
   }
 }
 
-
-// @media screen and (max-width: 1011px) {
-//     .hero {
-//       & .hero-inner {
-  
-//         & p{
-//            padding:300px;
-//         }
-//     }
-//     }
-//   }
+@media screen and (max-width: 551px) {
+  .hero {
+    & .hero-inner {
+      width:90%;
+      & .music-box {
+        height: 400px;
+        width: 400px;
+      }
+    }
+  }
+}
