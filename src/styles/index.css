@@ -390,3 +390,12 @@
     grid-template-columns: repeat(2, 1fr);
   }
 }
+@media screen and (max-width: 821px) {
+  .footer {
+    flex-direction: column;
+    padding: 50px;
+  }
+  .footer .links {
+    margin: 40px 0;
+  }
+}
