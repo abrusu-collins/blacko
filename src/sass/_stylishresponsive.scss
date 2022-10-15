@@ -1,9 +1,15 @@
 @media screen and (max-width: 821px) {
-    .stylish {
-        & .images {
-            grid-template-columns: repeat(2, 1fr);
-           
-          }
+  .stylish {
+    & .images {
+      grid-template-columns: repeat(2, 1fr);
     }
   }
-  
+}
+
+@media screen and (max-width: 691px) {
+  .stylish {
+    & .images {
+      grid-template-columns: 1fr;
+    }
+  }
+}
