@@ -13,3 +13,11 @@
     }
   }
 }
+
+@media screen and (max-width: 371px) {
+  .stylish {
+    & .images {
+      width: 90%;
+    }
+  }
+}

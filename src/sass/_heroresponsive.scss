@@ -45,3 +45,26 @@
     }
   }
 }
+
+@media screen and (max-width: 426px) {
+  .hero {
+    & .hero-inner {
+      width:90%;
+      & .music-box {
+        height: 350px;
+        width: 350px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 371px) {
+  .hero {
+    & .hero-inner {
+      & .music-box {
+        height: 300px;
+        width: 300px;
+      }
+    }
+  }
+}

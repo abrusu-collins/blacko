@@ -25,3 +25,13 @@
     }
   }
 }
+
+@media screen and (max-width: 371px) {
+    .socialnumbers {
+      padding: 50px 10px;
+      & .socialnumbersinner {
+        width: 99%;
+      }
+    }
+  }
+  
