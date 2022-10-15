@@ -408,6 +408,11 @@
     width: 100%;
   }
 }
+@media screen and (max-width: 691px) {
+  .tvinw .listen {
+    width: 90%;
+  }
+}
 @media screen and (max-width: 821px) {
   .stylish .images {
     grid-template-columns: repeat(2, 1fr);

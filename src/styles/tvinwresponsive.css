@@ -31,3 +31,8 @@
     width: 100%;
   }
 }
+@media screen and (max-width: 691px) {
+  .tvinw .listen {
+    width: 90%;
+  }
+}
