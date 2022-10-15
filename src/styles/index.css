@@ -347,6 +347,14 @@
     width: 99%;
   }
 }
+@media screen and (max-width: 791px) {
+  .socialnumbers .socialnumbersinner {
+    flex-direction: column;
+  }
+  .socialnumbers .socialnumbersinner .yt, .socialnumbers .socialnumbersinner .sp, .socialnumbers .socialnumbersinner .ad, .socialnumbers .socialnumbersinner .ig {
+    margin-bottom: 50px;
+  }
+}
 @media screen and (max-width: 1361px) {
   .tvinw .album-name #background-video {
     height: 47vh;

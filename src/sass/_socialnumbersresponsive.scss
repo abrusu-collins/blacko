@@ -1,16 +1,27 @@
 @media screen and (max-width: 1281px) {
-    .socialnumbers{
-        & .socialnumbersinner{
-            width:99%;
-        }
+  .socialnumbers {
+    & .socialnumbersinner {
+      width: 99%;
     }
+  }
 }
 
 @media screen and (max-width: 1001px) {
-    .socialnumbers{
-        padding:50px 30px;
-        & .socialnumbersinner{
-            width:99%;
-        }
+  .socialnumbers {
+    padding: 50px 30px;
+    & .socialnumbersinner {
+      width: 99%;
     }
+  }
+}
+
+@media screen and (max-width: 791px) {
+  .socialnumbers {
+    & .socialnumbersinner {
+      flex-direction: column;
+      & .yt, .sp, .ad, .ig{
+        margin-bottom: 50px;
+      }
+    }
+  }
 }
