@@ -395,7 +395,10 @@
   .socialnumbers .socialnumbersinner {
     flex-direction: column;
   }
-  .socialnumbers .socialnumbersinner .yt, .socialnumbers .socialnumbersinner .sp, .socialnumbers .socialnumbersinner .ad, .socialnumbers .socialnumbersinner .ig {
+  .socialnumbers .socialnumbersinner .yt,
+.socialnumbers .socialnumbersinner .sp,
+.socialnumbers .socialnumbersinner .ad,
+.socialnumbers .socialnumbersinner .ig {
     margin-bottom: 50px;
   }
 }
