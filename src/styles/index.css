@@ -55,6 +55,9 @@
   background-color: #ffd300;
   color: black;
 }
+.navbar .bar {
+  display: none;
+}
 
 .hero {
   background-color: #0e1032;

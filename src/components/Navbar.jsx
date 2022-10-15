@@ -1,3 +1,6 @@
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faBars } from '@fortawesome/free-solid-svg-icons'
+
 function Navbar() {
   return (
     <div className="navbar" id="home">
@@ -16,6 +19,9 @@ function Navbar() {
           <a href="#pics">Gallery</a>
         </li>
       </ul>
+      <div className="bar">
+      <FontAwesomeIcon icon={faBars} />
+      </div>
     </div>
   );
 }
