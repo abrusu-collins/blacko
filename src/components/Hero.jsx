@@ -44,7 +44,7 @@ function Hero({ file }) {
           after he released his mega hit titled "the first sermon". After that,
           everything he touches is a blessing. He is indeed a musical genius.
         </p>
-        <a href=" ">Explore his music</a>
+        <a href="https://beta.music.apple.com/us/artist/black-sherif/1485819772">Explore his music</a>
       </div>
     </div>
   );
