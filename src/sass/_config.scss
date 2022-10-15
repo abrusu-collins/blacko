@@ -1,9 +1,9 @@
 $primary_background: #0e1032;
 $yellow: #ffd300;
-$pink:#ffc0cb;
-$blue:#badeff;
-$green:#baffcd;
-$brown:#f5deb3;
+$pink: #ffc0cb;
+$blue: #badeff;
+$green: #baffcd;
+$brown: #f5deb3;
 * {
   padding: 0;
   margin: 0;
@@ -20,16 +20,15 @@ $brown:#f5deb3;
   src: url("../fonts/SFPRODISPLAYREGULAR.OTF");
 }
 
-.animate{
-    animation-name: spin;
-    animation-duration: 5000ms;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear;
+.animate {
+  animation-name: spin;
+  animation-duration: 5000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
 }
 
-@media screen and (max-width:1001px) {
-  
-  .removed{
+@media screen and (max-width: 1001px) {
+  .removed {
     display: none;
   }
 }
