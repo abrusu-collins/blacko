@@ -300,3 +300,17 @@
 .footer .links a:hover {
   opacity: 0.6;
 }
+
+@media screen and (max-width: 1485px) {
+  .hero .hero-inner a {
+    margin-top: 20px;
+  }
+}
+@media screen and (max-width: 1441px) {
+  .hero .hero-inner {
+    width: 70%;
+  }
+  .hero .hero-inner a {
+    margin-top: -15px;
+  }
+}
