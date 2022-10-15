@@ -273,7 +273,7 @@
 
 .footer {
   font-size: 14px;
-  height: 10vh;
+  padding: 40px;
   background-color: #0e1032;
   background-image: url("../img/green.png");
   background-size: contain;
