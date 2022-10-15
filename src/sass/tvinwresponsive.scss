@@ -8,9 +8,9 @@
     & .listen {
       width: 70%;
 
-& img{
-    margin: 50px;
-}
+      & img {
+        margin: 50px;
+      }
 
       & iframe {
         width: 60%;
@@ -20,21 +20,38 @@
 }
 
 @media screen and (max-width: 1281px) {
-    .tvinw {
-      & .album-name {
-        & #background-video {
-          height: 40vh;
-        }
+  .tvinw {
+    & .album-name {
+      & #background-video {
+        height: 40vh;
       }
+    }
+    & .listen {
+      width: 80%;
+
+      & img {
+        margin: 50px;
+      }
+
+      & iframe {
+        width: 60%;
+      }
+    }
+  }
+}
+
+
+@media screen and (max-width: 1001px) {
+    .tvinw {
       & .listen {
         width: 80%;
   
-  & img{
-      margin: 50px;
-  }
+        & img {
+          margin: 50px;
+        }
   
         & iframe {
-          width: 60%;
+          width: 100%;
         }
       }
     }
