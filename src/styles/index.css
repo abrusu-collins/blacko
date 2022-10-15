@@ -429,11 +429,35 @@
   }
 }
 @media screen and (max-width: 821px) {
+  .fans .comments {
+    grid-template-columns: 1fr;
+  }
+  .fans .comments div {
+    padding: 70px;
+  }
+}
+@media screen and (max-width: 821px) {
   .footer {
     flex-direction: column;
     padding: 50px;
   }
   .footer .links {
     margin: 40px 0;
+  }
+}
+@media screen and (max-width: 591px) {
+  .footer {
+    flex-direction: column;
+    padding: 50px;
+  }
+  .footer .links {
+    display: flex;
+    flex-direction: column;
+  }
+  .footer .links a {
+    margin: 0;
+  }
+  .footer .links .ig_link {
+    margin: 15px 0;
   }
 }
