@@ -394,6 +394,7 @@
 @media screen and (max-width: 791px) {
   .socialnumbers .socialnumbersinner {
     flex-direction: column;
+    background: #0e1032 url("../img/bg-black-shape.png");
   }
   .socialnumbers .socialnumbersinner .yt,
 .socialnumbers .socialnumbersinner .sp,

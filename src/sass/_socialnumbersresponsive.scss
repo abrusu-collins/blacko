@@ -17,8 +17,11 @@
 
 @media screen and (max-width: 791px) {
   .socialnumbers {
+
     & .socialnumbersinner {
       flex-direction: column;
+      background: $primary_background url("../img/bg-black-shape.png");
+
       & .yt,
       .sp,
       .ad,
