@@ -9,7 +9,7 @@
 @media screen and (max-width: 821px) {
   .fans {
     & .comments {
-      grid-template-columns: 1fr;
+      grid-template-columns:repeat(2,  1fr);
       & div {
         padding: 50px;
       }
@@ -17,10 +17,13 @@
   }
 }
 
-@media screen and (max-width: 821px) {
+@media screen and (max-width: 621px) {
   .fans {
     & .comments {
-      width: 90%;
+      grid-template-columns: 1fr;
+      & div {
+        padding: 30px;
+      }
     }
   }
 }

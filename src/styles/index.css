@@ -251,6 +251,7 @@
   font-size: 30px;
   font-family: SFBold;
   padding: 50px;
+  text-align: center;
 }
 .fans .comments {
   display: grid;
@@ -471,15 +472,18 @@
 }
 @media screen and (max-width: 821px) {
   .fans .comments {
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(2, 1fr);
   }
   .fans .comments div {
     padding: 50px;
   }
 }
-@media screen and (max-width: 821px) {
+@media screen and (max-width: 621px) {
   .fans .comments {
-    width: 90%;
+    grid-template-columns: 1fr;
+  }
+  .fans .comments div {
+    padding: 30px;
   }
 }
 @media screen and (max-width: 821px) {
