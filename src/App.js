@@ -1,5 +1,6 @@
 import "./styles/index.css";
 import { AudioPlayerProvider } from "react-use-audio-player";
+// import soja from "../src/mp3/soja.mp3";
 
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
